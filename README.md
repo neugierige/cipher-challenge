@@ -43,6 +43,8 @@ ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied,
 
 1. Implement a `.decode` method that takes an encrypted word as an argument and returns the unencrypted text.
 
+**NOTE**: It is okay to hard-code `alphabet` and `rotated`.
+
 ## Bonus
 
 First, change your cipher so that it can take a string with spaces, allowing you to encode and decode entire sentences, not just words.
