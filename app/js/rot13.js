@@ -8,16 +8,16 @@ var ROT13Cipher = (function () {
         var obj = {};
 
         _.each(alphabet, function (letter, index, alphabet) {
-          obj[alphabet[index]] = rotatedAlphabet[index];
+            obj[alphabet[index]] = rotatedAlphabet[index];
         });
 
         return obj;
     })();
 
-    var encode = function (phrase) {
+    var encode = function (word) {
         var encoded = [];
 
-        _.each(phrase.split(''), function (letter, index, phrase) {
+        _.each(word.split(''), function (letter, index, phrase) {
             encoded[index] = code[letter];
         });
 
