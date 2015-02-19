@@ -53,15 +53,19 @@ First, change your cipher so that it can take a string with spaces, allowing you
 var cipher = ROT13Cipher;
 cipher.encode('hello jeff'); //=> 'uryyb wrss' 
 ```
+Then, change your cipher again so that it can also take a string with upper-case characters.
+
+```js
+var cipher = ROT13Cipher;
+cipher.encode('Hello Jeff'); //=> 'Uryyb Wrss'
+```
 
 Next, Implement a ROT25 cipher. You should implement both `.ecnode` and `.decode` methods. Test drive your solution, and use the module pattern.
 
+```js
+var cipher = ROT25Cipher;
+cipher.encode('Hello Jeff'); //=> 'Gdkkn Idee'
 ```
-Plain:    abcdefghijklmnopqrstuvwxyz
-Cipher:   zabcdefghijklmnopqrstuvwxy
-```
-
-If you've correctly implemented the cipher, using it should transform the message "hello" into "gdkkn".
 
 **Very Challenging**: Finally, implement a cipher that takes a number between one and twenty-five as a parameter when it is instantiated. This number `n` will be used to rotate the alphabet by `n` places. For example, if you instantiate your cipher with 13, you should get the same results as the in-class lab. Use [ROT-n Rotation Encryption online](http://www.rot-n.com/) to build your test strings for each potential input.
 
