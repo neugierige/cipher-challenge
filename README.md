@@ -36,7 +36,7 @@ ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied,
 1. You should implment a method `.encode` that takes a single word as an argument and returns the encrypted text. You should be able to use your code like this:
 
     ```js
-    var cipher = ROT13Cipher();
+    var cipher = ROT13Cipher;
     cipher.encode('hello'); //=> 'uryyb' 
     cipher.encode('jeff'); //=> 'wrss'
     ```
