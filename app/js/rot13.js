@@ -1,8 +1,8 @@
 'use strict';
 
 var ROT13Cipher = (function () {
-    var alphabet = 'abcdefghijklmnopqrstuvwxyz '.split('');
-    var rotatedAlphabet = 'nopqrstuvwxyzabcdefghijklm '.split('');
+    var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    var rotatedAlphabet = 'nopqrstuvwxyzabcdefghijklm'.split('');
 
     var code = (function () {
         var obj = {};
