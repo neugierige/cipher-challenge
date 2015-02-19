@@ -12,7 +12,7 @@ module.exports = function(config) {
     colors: true,
     urlRoot: '_karma_',
     files: [
-      'bower_components/jquery/dist/jquery.js',
+      'bower_components/lodash/lodash.js',
       'app/js/**/*.js',
       'test/spec/**/*.js'
     ],
