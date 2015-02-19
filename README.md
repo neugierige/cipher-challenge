@@ -47,6 +47,11 @@ ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied,
 
 First, change your cipher so that it can take a string with spaces, allowing you to encode and decode entire sentences, not just words.
 
+```js
+var cipher = ROT13Cipher;
+cipher.encode('hello jeff'); //=> 'uryyb wrss' 
+```
+
 Next, Implement a ROT25 cipher. You should implement both `.ecnode` and `.decode` methods. Test drive your solution, and use the module pattern.
 
 ```
