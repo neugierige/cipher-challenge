@@ -37,7 +37,7 @@ ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied,
 
     ```js
     var cipher = ROT13Cipher;
-    cipher.encode('hello'); //=> 'uryyb' 
+    cipher.encode('hello'); //=> 'uryyb'
     cipher.encode('jeff'); //=> 'wrss'
     ```
 
@@ -51,7 +51,7 @@ First, change your cipher so that it can take a string with spaces, allowing you
 
 ```js
 var cipher = ROT13Cipher;
-cipher.encode('hello jeff'); //=> 'uryyb wrss' 
+cipher.encode('hello jeff'); //=> 'uryyb wrss'
 ```
 Then, change your cipher again so that it can also take a string with upper-case characters.
 
