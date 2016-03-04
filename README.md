@@ -72,3 +72,8 @@ cipher.encode('Hello Jeff'); //=> 'Gdkkn Idee'
 
 - [Caesar cipher - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Caesar_cipher)
 - [ROT-n Rotation Encryption online - The Caesar Cipher and other rotation ciphers](http://www.rot-n.com/)
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
