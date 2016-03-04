@@ -6,12 +6,6 @@
 
 -   None.
 
-## Objectives
-
-By the end of this, students should be able to:
-
--   Solve the same problem in both Ruby and JavaScript
-
 ## Instructions
 
 1.  Fork and clone this repository.
