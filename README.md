@@ -2,6 +2,10 @@
 
 # Caesar Cipher Challenge
 
+## Prerequisites
+
+-   None.
+
 ## Objectives
 
 By the end of this, students should be able to:
