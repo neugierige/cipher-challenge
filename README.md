@@ -14,10 +14,18 @@ By the end of this, students should be able to:
 
 ## Instructions
 
-1. Fork and clone.
-1. `npm install`
-1. `bower install`
-1. Follow instructions below.
+1.  Fork and clone this repository.
+1.  Change into the new directory.
+1.  Install dependencies.
+1.  Create and checkout a new branch to work on.
+1.  Fulfill the listed requirements.
+
+Work in [`lib/challenge.js`](lib/challenge.js). A pull request is not required,
+but it is necessary if you want a code review.
+
+You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
+related to [forking,
+cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Ceasar Cipher
 
