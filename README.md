@@ -6,8 +6,7 @@
 
 By the end of this, students should be able to:
 
-- Use the module pattern in solving a problem
-- Write Jasmine tests to drive their solution
+-   Solve the same problem in both Ruby and JavaScript
 
 ## Instructions
 
