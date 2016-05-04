@@ -48,7 +48,7 @@ glance.
 
 ## Requirements
 
-1.  Plan using the whiteboard for 15 minutes.
+1.  Plan using the whiteboard for about 10 minutes.
 1.  Implement your `ROT13Cipher` module.
 1.  You should implment a method `.encode` that takes a single word as an
     argument and returns the encrypted text. Read and run the tests. Try your
